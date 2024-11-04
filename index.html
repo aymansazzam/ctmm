@@ -1,1 +1,385 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposition de Refonte du Site Web CTM Messagerie</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+    <nav id="sidebar">
+        <h2>Menu</h2>
+        <p>Cliquer pour naviguer les sections de la propsotion.</p>
+        <a href="#resume" class="nav-link active">Résumé Exécutif</a>
+        <a href="#solution" class="nav-link">Solution Proposée</a>
+        <a href="#technologie" class="nav-link">Stack Technologique</a>
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <a href="#fonctionnalites" class="nav-link">Fonctionnalités Clés</a>
+        <a href="#performance" class="nav-link">Optimisation</a>
+        <a href="#seo" class="nav-link">SEO</a>
+        <a href="#integration" class="nav-link">Intégration</a>
+        <a href="#securite" class="nav-link">Sécurité</a>
+        <a href="#processus" class="nav-link">Processus</a>
+        <a href="#budget" class="nav-link">Budget</a>
+        <a href="#conclusion" class="nav-link">Conclusion</a>
+    </nav>
 
+    <main id="content">
+        <h1>Proposition de Refonte du Site Web CTM Messagerie</h1>
+
+        <div class="image-container">
+            <img src="cover-dark.png" alt="Architecture Icon" class="section-icon">
+        </div>
+
+        <section id="resume">
+            <h2>Résumé Exécutif</h2>
+            <p>CTM Messagerie nécessite une refonte complète de son site web (ctm-messagerie.ma) pour moderniser sa présence numérique et améliorer ses performances commerciales. Cette proposition présente une solution innovante qui répond non seulement aux spécifications techniques mais offre également une interface utilisateur attrayante et conviviale.</p>
+        </section>
+
+        <section id="solution">
+            <h2>Solution Proposée</h2>
+            <p>Notre solution proposée aborde tous les points clés décrits dans les spécifications, tout en introduisant des éléments créatifs pour améliorer l'engagement des utilisateurs et l'attrait visuel. Nous nous concentrons sur la création d'une application web robuste, évolutive et performante qui servira de base solide pour la croissance numérique de CTM Messagerie.</p>
+        </section>
+
+        <section id="technologie">
+            <h2>Stack Technologique</h2>
+            <table class="tech-stack">
+                <thead>
+                    <tr>
+                        <th>Composant</th>
+                        <th>Technologies</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Frontend</td>
+                        <td>Next.js, TypeScript</td>
+                        <td>Framework React avec typage statique</td>
+                    </tr>
+                    <tr>
+                        <td>Backend</td>
+                        <td>Node.js, Express.js</td>
+                        <td>Serveur et middleware d'application</td>
+                    </tr>
+                    <tr>
+                        <td>Base de données</td>
+                        <td>PostgreSQL, Redis</td>
+                        <td>Données relationnelles et système de cache</td>
+                    </tr>
+                    <tr>
+                        <td>Gestion d'état</td>
+                        <td>React Query, Zustand</td>
+                        <td>Gestion de l'état serveur et client</td>
+                    </tr>
+                    <tr>
+                        <td>Composants UI</td>
+                        <td>Tailwind CSS, Radix UI</td>
+                        <td>Style et composants accessibles</td>
+                    </tr>
+                    <tr>
+                        <td>API</td>
+                        <td>REST, GraphQL</td>
+                        <td>API RESTful et requêtes de données complexes</td>
+                    </tr>
+                    <tr>
+                        <td>Authentification</td>
+                        <td>NextAuth.js</td>
+                        <td>Système d'authentification sécurisé</td>
+                    </tr>
+                    <tr>
+                        <td>Déploiement</td>
+                        <td>Vercel</td>
+                        <td>Hébergement et fonctions serverless</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="architecture">
+            
+            <h2>Architecture</h2>
+            <p>Nous proposons une architecture modulaire basée sur les microservices pour assurer l'évolutivité et la facilité de maintenance :</p>
+            <div class="image-container">
+                <img src="architecture.png" alt="Architecture Icon" class="section-icon">
+            </div>
+            <table class="tech-stack">
+                <thead>
+                    <tr>
+                        <th>Composant</th>
+                        <th>Technologies</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Application Core</td>
+                        <td>Next.js</td>
+                        <td>Interface utilisateur principale</td>
+                    </tr>
+                    <tr>
+                        <td>API Gateway</td>
+                        <td>Express.js</td>
+                        <td>Routage et agrégation des API</td>
+                    </tr>
+                    <tr>
+                        <td>Microservices</td>
+                        <td>Services indépendants</td>
+                        <td>Services séparés pour la simulation d'expédition, le suivi et le programme de fidélité</td>
+                    </tr>
+                    <tr>
+                        <td>Couche de données</td>
+                        <td>PostgreSQL, Redis</td>
+                        <td>Stockage persistant et cache en temps réel</td>
+                    </tr>
+                    <tr>
+                        <td>Couche d'intégration</td>
+                        <td>Middleware personnalisé</td>
+                        <td>Interface avec les systèmes CRM, TELIWAY et STG</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="fonctionnalites">
+            <h2>Fonctionnalités Clés</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Fonctionnalité</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Simulateur d'envoi avancé</td>
+                        <td>Permet aux utilisateurs de calculer les coûts d'expédition, de sauvegarder les simulations et de les convertir directement en commandes.</td>
+                    </tr>
+                    <tr>
+                        <td>Système de suivi de colis</td>
+                        <td>Offre un suivi précis des colis avec des mises à jour en temps réel et des notifications personnalisables pour chaque étape du transport.</td>
+                    </tr>
+                    <tr>
+                        <td>Espace client personnalisé</td>
+                        <td>Interface adaptée aux besoins spécifiques des particuliers, entreprises et e-commerçants, permettant une gestion efficace des expéditions.</td>
+                    </tr>
+                    <tr>
+                        <td>Programme de fidélité</td>
+                        <td>Système de points et récompenses encourageant la fidélité des clients.</td>
+                    </tr>
+                    <tr>
+                        <td>Cartographie interactive</td>
+                        <td>Carte interactive permettant de localiser facilement les agences et points relais CTM, avec informations détaillées et itinéraires.</td>
+                    </tr>
+                    <tr>
+                        <td>Gestion des offres</td>
+                        <td>Interface permettant de créer, modifier et suivre facilement les offres promotionnelles, avec mise à jour automatique sur le site.</td>
+                    </tr>
+                    <tr>
+                        <td>Gestion des réclamations</td>
+                        <td>Système centralisé pour soumettre, suivre et traiter les réclamations clients, améliorant la réactivité du support client.</td>
+                    </tr>
+                    <tr>
+                        <td>Chatbot intelligent</td>
+                        <td>Assistant virtuel capable de répondre aux questions fréquentes, guider les utilisateurs et fournir une assistance 24/7.</td>
+                    </tr>
+                    <tr>
+                        <td>Plateforme de contenu</td>
+                        <td>Espace dédié aux actualités, articles de blog et conseils d'expédition, renforçant l'expertise de CTM et améliorant le SEO.</td>
+                    </tr>
+                    <tr>
+                        <td>Module de recrutement</td>
+                        <td>Interface pour publier des offres d'emploi, gérer les candidatures et faciliter le processus de recrutement.</td>
+                    </tr>
+                    <tr>
+                        <td>Tableau de bord analytique</td>
+                        <td>Outil pour les administrateurs, offrant des insights détaillés sur les performances du site, le comportement des utilisateurs et les KPIs clés.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="performance">
+            <h2>Optimisation des Performances</h2>
+            <ul>
+                <li><strong>Mise en cache :</strong> Implémentation de Redis pour les données fréquemment accédées</li>
+                <li><strong>Indexation de la base de données :</strong> Optimisation des requêtes avec une indexation appropriée</li>
+                <li><strong>Limitation du taux d'API :</strong> Mise en place de limites pour prévenir les abus</li>
+                <li><strong>Équilibrage de charge :</strong> Utilisation de l'équilibrage de charge intégré de Vercel</li>
+                <li><strong>Fractionnement du code :</strong> Utilisation du fractionnement automatique du code de Next.js</li>
+                <li><strong>Optimisation des images :</strong> Utilisation du composant Image de Next.js</li>
+                <li><strong>Fonctions serverless :</strong> Utilisation des fonctions serverless de Vercel pour des points d'API évolutifs</li>
+            </ul>
+        </section>
+
+        <section id="seo">
+            <h2>Stratégie SEO</h2>
+            <h3>Optimisations Techniques</h3>
+            <ul>
+                <li>Structure URL optimisée et conviviale</li>
+                <li>Optimisation des balises meta (title, description)</li>
+                <li>Mise en place du balisage schema.org</li>
+                <li>Optimisation des images (compression, alt tags)</li>
+                <li>Génération automatique de sitemap XML</li>
+                <li>Implémentation des breadcrumbs</li>
+            </ul>
+
+            <h3>Optimisation du Contenu</h3>
+            <ul>
+                <li>Création de contenu optimisé pour les mots-clés ciblés</li>
+                <li>Optimisation des pages de services et agences</li>
+                <li>Blog avec contenu régulier et pertinent</li>
+                <li>Intégration de contenu multimédia (images, vidéos)</li>
+            </ul>
+
+            <h3>Performance</h3>
+            <ul>
+                <li>Optimisation de la vitesse de chargement</li>
+                <li>Responsive design pour mobile-first</li>
+                <li>Mise en cache avancée</li>
+                <li>Optimisation Core Web Vitals</li>
+            </ul>
+        </section>
+
+        <section id="integration">
+            <h2>Intégration avec les Systèmes Existants</h2>
+            <ul>
+                <li><strong>CRM (Salesforce) :</strong> Utilisation des API Salesforce pour la synchronisation des données clients</li>
+                <li><strong>TELIWAY :</strong> Implémentation de wrappers API personnalisés pour la création et le suivi des expéditions</li>
+                <li><strong>STG :</strong> Intégration avec l'API de suivi GPS de STG pour le suivi en temps réel des expéditions</li>
+            </ul>
+        </section>
+
+        <section id="securite">
+            
+            <h2>Mesures de Sécurité</h2>
+            <ul>
+                <li><strong>Authentification :</strong> Implémentation de NextAuth.js pour une authentification utilisateur sécurisée</li>
+                <li><strong>Chiffrement des données :</strong> Utilisation de HTTPS et chiffrement des données sensibles au repos</li>
+                <li><strong>Validation des entrées :</strong> Mise en place d'une validation approfondie côté serveur</li>
+                <li><strong>Protection CSRF :</strong> Utilisation de la protection CSRF intégrée de Next.js</li>
+                <li><strong>Limitation du taux :</strong> Implémentation de la limitation du taux d'API pour prévenir les abus</li>
+                <li><strong>En-têtes de sécurité :</strong> Configuration des en-têtes de sécurité appropriés (CSP, HSTS, etc.)</li>
+            </ul>
+        </section>
+
+        <section id="processus">
+            <h2>Processus de Développement et Calendrier</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Phase</th>
+                        <th>Durée</th>
+                        <th>Activités Principales</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Planification et Design</td>
+                        <td>2-3 semaines</td>
+                        <td>Analyse des besoins, wireframes, maquettes UI/UX</td>
+                    </tr>
+                    <tr>
+                        <td>Développement Core</td>
+                        <td>12-14 semaines</td>
+                        <td>Développement des fonctionnalités principales</td>
+                    </tr>
+                    <tr>
+                        <td>Intégration et Tests</td>
+                        <td>3-4 semaines</td>
+                        <td>Tests d'intégration, QA, corrections de bugs</td>
+                    </tr>
+                    <tr>
+                        <td>Déploiement</td>
+                        <td>1-2 semaines</td>
+                        <td>Mise en production, tests finaux</td>
+                    </tr>
+                </tbody>
+            </table>
+        
+        </section>
+
+        <section id="budget">
+            <h2>Répartition du Budget</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Poste</th>
+                        <th>Pourcentage</th>
+                        <th>Montant (MAD)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Développement Frontend</td>
+                        <td>30%</td>
+                        <td>55,500</td>
+                    </tr>
+                    <tr>
+                        <td>Développement Backend</td>
+                        <td>30%</td>
+                        <td>55,500</td>
+                    </tr>
+                    <tr>
+                        <td>Design UI/UX</td>
+                        <td>15%</td>
+                        <td>27,750</td>
+                    </tr>
+                    <tr>
+                        <td>Tests et Assurance Qualité</td>
+                        <td>10%</td>
+                        <td>18,500</td>
+                    </tr>
+                    <tr>
+                        <td>Peformance, Ranking & SEO</td>
+                        <td>10%</td>
+                        <td>18,500</td>
+                    </tr>
+                    <tr>
+                        <td>Gestion de Projet</td>
+                        <td>5%</td>
+                        <td>9,250</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td><strong>100%</strong></td>
+                        <td><strong>185,000</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="conclusion">
+            <h2>Conclusion</h2>
+            <p>Cette proposition présente une solution complète pour la refonte du site web de CTM Messagerie, mettant l'accent sur la création d'une application web robuste, évolutive et performante. En utilisant des technologies modernes et les meilleures pratiques, nous visons à fournir une solution qui répond non seulement aux exigences actuelles mais constitue également une base solide pour la croissance future et l'ajout de nouvelles fonctionnalités.</p>
+            <p>Nous sommes impatients de collaborer avec CTM Messagerie sur ce projet passionnant et sommes confiants dans notre capacité à livrer un résultat exceptionnel qui stimulera la croissance de l'entreprise et améliorera la satisfaction des clients.</p>
+            <p>
+                Concernant la question principale des "offres créatives", pendant la phase de recherche, nous fournirons 
+                un rapport de benchmarking avec une analyse approfondie de la concurrence, qui servira de base pour la 
+                conception de l'interface utilisateur/UX et la structure du site web. Notre offre consiste en une équipe 
+                technique solide qui travaillera aux côtés de votre équipe pour livrer un excellent site web avec des 
+                fonctionnalités riches pour vos utilisateurs finaux.
+            </p>
+    
+            <p>
+                Idéalement, nous souhaiterions avancer avec la première phase du projet, nous accorder sur une version 
+                finale de toutes les fonctionnalités et démarrer à partir de là.
+            </p>
+        </section>
+    </main>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</div>
+</html>
