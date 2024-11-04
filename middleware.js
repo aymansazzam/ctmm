@@ -2,7 +2,7 @@ import { NextResponse } from 'next/server'
 
 export function middleware(request) {
     // Change this to your desired password
-    const CORRECT_PASSWORD = 'your-password-here'
+    const CORRECT_PASSWORD = 'f@yK4R@6xu'
 
     // Check if user is authenticated
     const authCookie = request.cookies.get('auth')
